@@ -1,0 +1,40 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>DownloadServlet</servlet-name>
+  	<display-name>DownloadServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.apkchain.DownloadServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>callContractServlet</servlet-name>
+  	<display-name>callContractServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.apkchain.callContractServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DBManager</servlet-name>
+  	<display-name>DBManager</display-name>
+  	<description></description>
+  	<servlet-class>com.apkchain.DBManager</servlet-class>
+    
+    <load-on-startup>0</load-on-startup> 
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>DownloadServlet</servlet-name>
+  	<url-pattern>/DownloadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DBManager</servlet-name>
+  	<url-pattern>/DBManager</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>callContractServlet</servlet-name>
+  	<url-pattern>/callContractServlet</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
