@@ -1,3 +1,14 @@
+You can find the DLT paper via this [link](https://arxiv.org/abs/2101.06454), and please consider citing our paper if it's helpful to you.
+
+```latex
+@ARTICLE{AGCHAIN24,
+ AUTHOR = {Mengjie Chen and Xiao Yi and Daoyuan Wu and Jianliang Xu and Yingjiu Li and Debin Gao},
+ TITLE = {{AGChain}: A Blockchain-based Gateway for Trustworthy App Delegation from Mobile App Markets},
+ JOURNAL = {ACM Distributed Ledger Technologies: Research and Practice},
+ YEAR = {2024},
+}
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
