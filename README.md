@@ -1,4 +1,4 @@
-You can find the DLT paper via this [link](https://arxiv.org/abs/2101.06454), and please consider citing our paper if it's helpful to you.
+You can find the DLT paper via this [link](https://daoyuan14.github.io/papers/DLT24_AGChain.pdf), and please consider citing our paper if it's helpful to you.
 
 ```latex
 @ARTICLE{AGCHAIN24,
